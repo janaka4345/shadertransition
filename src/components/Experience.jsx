@@ -23,15 +23,7 @@ export default function Experience() {
   //   );
   return (
     // <KeyboardControls map={map}>
-    <Canvas
-      shadows={true}
-      camera={{
-        fov: 40,
-        near: 0.2,
-        far: 200,
-        position: [5, 5, 5],
-      }}
-    >
+    <Canvas shadows camera={{ position: [0, 0, 8], fov: 42 }}>
       <World />
     </Canvas>
     // </KeyboardControls>
